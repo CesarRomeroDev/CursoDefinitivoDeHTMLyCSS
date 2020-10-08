@@ -19,6 +19,38 @@
             <span>Apellido Paterno</span>
             <input type="text" name="apellidoP" id="apellidoP" placeholder="Paterno" autocomplete="name" required>
         </label>
+        <label for="cp">
+            <span>CP</span>
+            <input type="text" name="cp" id="cp" placeholder="07320" autocomplete="postal-code" required>
+        </label>
+        <br>
+        <br>
+        <label for="cursos">
+        <span>Selecciona tu Curso!!</span>
+        <br>
+        <input list="cursos" name="cursos" placeholder="-Please Select-" required>
+            <datalist id="cursos">
+                <option value="javaScript"></option>
+                <option value="HTML"></option>
+                <option value="CSS3"></option>
+                <option value="PHP"></option>
+                <option value="Phyton"></option>
+                <option value="Java"></option>
+            </datalist>
+        </label>
+        <button type="submit">Entrar</button>
+        <main>
+            <section>
+                <figure>
+                    <img style="width: 20%;" src="./claseImangen/img/pexels-suzy-hazelwood-1306548.jpg" alt="imagen de arroz">
+                    <figcaption>Imagen generada</figcaption>
+                </figure>
+            </section>
+        </main>
+            <label for="hora">
+                <span>Hora de Salida</span>
+                <input type="datetime-local" name="hora" id="hora" required> 
+            </label>
     </form>
 </body>
 </html>
