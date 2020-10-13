@@ -1,0 +1,21 @@
+/*Adjacent Sibling*/
+/*h2 + p {
+    color: red;
+    border: 2px solid blue;
+    border-radius: 3px;
+}*/
+
+/*General Siblings*/
+/*h2 ~ p {
+    color: blue;
+}*/
+
+/*HIJO DIRECTO*/
+/*div > p {
+    color: red;
+}*/
+
+/*DESENDIENTE*/
+div p {
+    color: red;
+}
