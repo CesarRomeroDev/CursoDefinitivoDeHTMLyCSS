@@ -1,0 +1,9 @@
+    .header__img{
+        width: 20%;
+    }
+    .header__nav {
+        width: 80%;
+    }
+    .header__nav li {
+        margin: auto;
+    }
