@@ -1,9 +1,29 @@
-    .header__img{
-        width: 30%;
-    }
-    .header__nav {
-        width: 70%;
-    }
-    .header__nav li {
-        margin: auto;
-    }
+.header__figure {
+    justify-content: flex-start;
+    width: 50%;
+    height: 120px;
+}
+.header__figure img {
+    width: 30%;
+}
+.header__nav {
+    width: 50%;
+}
+.header__nav ul {
+    padding-top: 3rem;
+    width: 100%;
+    height: 120px;
+}
+
+
+.main__section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.main figure { 
+    width: 30%;
+}
+.main img {
+    width: 100%;
+}

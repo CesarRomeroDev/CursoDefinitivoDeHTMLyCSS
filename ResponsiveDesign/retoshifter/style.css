@@ -7,25 +7,45 @@ html {
     font-size: 62.5%;
 }
 .header {
-    background-color: black;
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    width: 100%;
 }
-.header__img {
-    justify-content: space-between; 
+.header__figure {
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
-.header__img img {
-    margin-left: 2rem;
-    width: 15vh;
+.header__figure img {
+    width: 20%;
+}
+.header__nav {
+    width: 100%;
 }
 .header__nav ul {
     display: flex;
-    flex-wrap: wrap;
-    color: white;
+    justify-content: space-evenly;
+    width: 100%;
+    background-color: #023e8a;
 }
 .header__nav li {
-    margin: auto;
+    margin: 1.0rem 0;
+    color: white;
+    font-size: 2rem;
     list-style: none;
-    font-size: 1.5rem;
+}
+
+
+.main {
+    width: 100%;
+}
+.main__section {
+    width: 100%;
+}
+.main__figure {
+    width: 100%;
+}
+main img {
+    margin: 0.9rem auto;
+    width: 100%;
 }
